@@ -9,9 +9,9 @@ class Card(object):
         print("{} of {}".format(self.value, self.suit))
 
 
-# class Deck(object):
-#     def __init__(self):
-#
+class Deck(object):
+    def __init__(self):
+
 # class Player(object):
 #     def __init__(self):
 
