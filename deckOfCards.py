@@ -30,14 +30,18 @@ class Deck(object):
             r = random.randint(0, i)
             self.cards[i], self.cards[r] = self.cards[r], self.cards[i]
 
+
+    def draw(self):
+        return self.cards.pop()
+
 # class Player(object):
 #     def __init__(self):
 
 
 #This is where the classes are run
-# card = Card("Clubs", 6)
-# card.show()
 
 deck = Deck()
 deck.shuffle()
-deck.show()
+
+card = deck.draw()
+card.show()
