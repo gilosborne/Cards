@@ -1,4 +1,4 @@
-#print("Hello World")
+#https://www.youtube.com/watch?v=t8YkjDH86Y4 at 11 minutes
 import random
 
 class Card(object):
